@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container-cart">
+        <ul>
+            <li class="submenu">
+                <div class="head-cart">
+                <img src="img/shopping_cart.png" alt="cart" id="img-cart">
+                <p class="amount-item" id="amonutTotal">0</p>
+                 </div>
+                <div id="cart">
+                    <table id="list-cart">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody> <!-- Js -->
+                    </table>
+                    <a href="#" id="empty-cart" class="button-empty">Empty All</a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <div id="list-items">
+        <div class="card">
+            <div class="info-card">
+                <img src="img/sweater_01.jpg" alt="item-1"> 
+                <div class="text-card">
+                <h3>Gothic-Style Sweater</h3> 
+                <p>Take with you the best style <br> for this winter</p> 
+                <p class="item-price"><span>$300</span> <span class="realPrice">$130</span></p>
+                <a href="#" class="add-cart button-add" data-id="1">Add to cart</a>
+            </div>
+            </div>
+            <div class="info-card">
+                <img src="img/sweater_02.jpg" alt="item-2"> 
+                <div class="text-card">
+                <h3>Gothic-Style Sweater</h3> 
+                <p>Take with you the best style <br> for this winter</p> 
+                <p class="item-price"><span>$300</span> <span class="realPrice">$110</span></p>
+                <a href="#" class="add-cart button-add" data-id="2">Add to cart</a>
+            </div>
+            </div>
+            <div class="info-card">
+                <img src="img/sweater_03.jpg" alt="item-3"> 
+                <div class="text-card">
+                <h3>Gothic-Style Sweater</h3> 
+                <p>Take with you the best style <br> for this winter</p> 
+                <p class="item-price"><span>$300</span> <span class="realPrice">$170</span></p>
+                <a href="#" class="add-cart button-add" data-id="3">Add to cart</a>
+            </div>
+            </div>
+            <div class="info-card">
+                <img src="img/sweater_04.jpg" alt="item-4"> 
+                <div class="text-card">
+                <h3>Gothic-Style Sweater</h3> 
+                <p>Take with you the best style <br> for this winter</p> 
+                <p class="item-price"><span>$300</span> <span class="realPrice">$190</span></p>
+                <a href="#" class="add-cart button-add" data-id="4">Add to cart</a>
+            </div>
+            </div>
+            <div class="info-card">
+                <img src="img/sweater_05.jpg" alt="item-5"> 
+                <div class="text-card">
+                <h3>Gothic-Style Sweater</h3> 
+                <p>Take with you the best style <br> for this winter</p> 
+                <p class="item-price"><span>$300</span> <span class="realPrice">$150</span></p>
+                <a href="#" class="add-cart button-add" data-id="5">Add to cart</a>
+            </div>
+            </div>
+            <div class="info-card">
+                <img src="img/sweater_06.jpg" alt="item-6"> 
+                <div class="text-card">
+                <h3>Gothic-Style Sweater</h3> 
+                <p>Take with you the best style <br> for this winter</p> 
+                <p class="item-price"><span>$300</span> <span class="realPrice">$120</span></p>
+                <a href="#" class="add-cart button-add" data-id="6">Add to cart</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
