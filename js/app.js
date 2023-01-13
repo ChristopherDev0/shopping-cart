@@ -17,9 +17,10 @@ function addEvents(){
 }
 
 function addItem(e){
-    addAcount();
+
     e.preventDefault();
     if(e.target.classList.contains('add-cart')){
+        addAcount();
         const selectItem = e.target.parentElement.parentElement;
         readData(selectItem);
     }
